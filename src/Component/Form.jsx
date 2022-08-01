@@ -12,7 +12,7 @@ const UserForm = (props) => {
         console.log(newUser)
         props.setUser(newUser)
     }
-
+    
     return(
         <form onSubmit={createUser}>
             <div className="casilla1" >
